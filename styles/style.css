@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.container {
+    padding: 0;
+}
+.col-md-12 {
+    padding: 0;
+}
+.register-form {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 40px;
+    border: 1px solid #2f4feb;
+    max-width: 643px;
+}
+.xButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 23px;
+    margin-right: 23px;
+}
+.xButton img {
+    cursor: pointer;
+}
+.note {
+    text-align: center;
+    margin-bottom: 0;
+    color: #2f4feb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+
+.form-content {
+    /* padding: 5%;
+    /*margin-bottom: 2%;*/
+    margin-top: 61px;
+    margin-left: 53px;
+    margin-right: 53px; 
+}
+
+.form-control {
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 0;
+    height: 60px;
+    color: rgba(112, 112, 112, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-group {
+    border: 1px solid #2f4feb;
+    margin-bottom: 44px;
+}
+.last-form {
+    margin-bottom: 0px;
+}
+.buttonReg {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.btnSubmit {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    border-radius: 42px;
+    background-color: #2f4feb;
+    padding: 26px 37px 25px 36px;
+    margin-top: 71px;
+    margin-bottom: 58px;
+    line-height: 1;
+    cursor: pointer;
+    text-transform: uppercase;
+}
