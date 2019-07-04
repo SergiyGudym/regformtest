@@ -24,13 +24,13 @@
                         <div class="col-md-12">
                             <form action="" method="get">
                                 <div class="form-group">
-                                    <input required type="text" class="form-control" placeholder="ФИО*" value="" name="name"/>
+                                    <input required onkeydown="return onlyLetters(event)" id="fio" type="text" class="form-control" placeholder="ФИО*" value="" name="name"/>
                                 </div>
                                 <div class="form-group">
-                                    <input required type="email" class="form-control" placeholder="E-mail (Ваш логин)*" value="" name="email"/>
+                                    <input required onkeydown="return onlyEnglish(event)" id="emailEng" type="email" class="form-control" placeholder="E-mail (Ваш логин)*" value="" name="email"/>
                                 </div>
                                 <div class="form-group">
-                                    <input required type="number" class="form-control" placeholder="Телефон*" value="" name="phone"/>
+                                    <input required onkeydown="return onlyNumber(event)" id="num" type="text" class="form-control" placeholder="Телефон*" value="" name="phone"/>
                                 </div>
                                 <div class="form-group">
                                     <input required type="text" class="form-control" placeholder="Страна*" value="" name="country"/>
@@ -60,5 +60,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- JS for test -->
+    <script src="scripts/script.js"></script>
   </body>
 </html>
