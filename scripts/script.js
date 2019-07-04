@@ -42,7 +42,7 @@ function onlyEnglish(e) {
     else if(kod == 8){
         return true;
     }
-    // backspace
+    // del
     else if(kod == 46){
         return true;
     }
