@@ -34,6 +34,22 @@ function onlyEnglish(e) {
     else if(kod>=97 && kod <=122){
         return true;
     }
+    // Cyrillic big letter
+    else if(kod>=1040 && kod <=1105 && kod == 1025){
+        return false;
+    }
+    // backspace
+    else if(kod == 8){
+        return true;
+    }
+    // backspace
+    else if(kod == 46){
+        return true;
+    }
+    // arrows
+    else if(kod>=37 && kod <=40){
+        return true;
+    }
     /*
     По хорошему, я бы еще вставил код для 64 (@) и 46 (точка), 
     но ТЗ есть ТЗ и уже почти час ночи... Хорошего дня :)
